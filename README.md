@@ -19,7 +19,7 @@ So I made this, a **S**uper **S**imple game launcher.
 ## Requirements:
 - Python3
 - Terminal
-- Games (optional)
+- `colorama` (OPTIONAL)
 
 ## License
 **MIT** since it's a super mega simple project.
