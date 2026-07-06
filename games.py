@@ -11,7 +11,7 @@ if COLORAMA_ENABLED:
         from colorama import init, Fore, Style
         init(autoreset=True)
     except ImportError:
-        COLORA_ENABLED = False
+        COLORAMA_ENABLED = False
 
 def color(text, color="white"):
     if not COLORAMA_ENABLED:
