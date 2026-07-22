@@ -1,6 +1,9 @@
 # Games (V2)
 A GTK3 GUI launcher for games. (A successor to kissgamelauncher)
 
+<img width="283" height="460" alt="preview" src="https://github.com/user-attachments/assets/a1057efb-1353-4d11-a437-0c21c1b484d4" />
+
+
 ## Features:
 - GTK3 User Interface
 - Icons
