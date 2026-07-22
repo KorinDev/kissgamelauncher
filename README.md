@@ -1,28 +1,37 @@
-# KISS GAME LAUNCHER
-**K**eep **I**t **S**imple **S**tupid!
+# Games (V2)
+A GTK3 GUI launcher for games. (A successor to kissgamelauncher)
 
-A stupidly simple launcher for my ASUS Eee (PC) 1000HG.
+## Features:
+- GTK3 User Interface
+- Icons
+- Search bar
 
----
-
-## Why?
-Because I got tired of continously navigating directories or remembering all the different names for the different games since im a TTY user.
-So I made this, a **S**uper **S**imple game launcher.
-
----
+## Requirements
+- Python 3
+- PyGObject
 
 ## How to use
-1. Create a `~/.config/kiss/games.json` file *(look at example.games.json for syntax)*.
-2. Create a symlink from games.py to `~/.local/bin/games`
-3. Run `games`.
 
-## Requirements:
-- Python3
-- Terminal
-- `colorama` (OPTIONAL)
+1. Create `~/.config/kiss/games.json`
+2. Run `./games.py`
+3. Click on a game
+4. Press play.
 
-## License
-**MIT** since it's a super mega simple project.
+## More Permanent Install
+Run `install.py` for a more permanent install.
 
-## Screensots:
-No. I dont know how to make screenshots in TTY. ^w^
+## Example games.json
+```json
+{
+	"doom": {
+		"cmd": "gzdoom",
+		"name": "DOOM",
+		"icon": "gzdoom"
+	},
+	"luanti": {
+		"cmd": "luanti",
+		"name": "Luanti (Minetest)",
+		"icon": "luanti"
+	}
+}
+```
