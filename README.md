@@ -15,6 +15,7 @@ A GTK3 GUI launcher for games. (A successor to kissgamelauncher)
 
 ## How to use
 
+0. `chmod +x` the `.py` files.
 1. Create `~/.config/kiss/games.json`
 2. Run `./games.py`
 3. Click on a game
